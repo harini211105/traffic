@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>City Traffic Information Service</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f6fa;
+            margin: 0;
+        }
+
+        header {
+            background-color: navy;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header img {
+            width: 80%;
+            max-width: 700px;
+            height: 180px;
+        }
+
+        nav {
+            background-color: steelblue;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 12px;
+            font-weight: bold;
+        }
+
+        section {
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        h2 {
+            color: navy;
+        }
+
+        .picture {
+            width: 100%;
+            max-width: 600px;
+            height: 220px;
+            object-fit: cover;
+            display: block;
+            margin: 15px auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: lightblue;
+        }
+
+        .heavy {
+            color: red;
+            font-weight: bold;
+        }
+
+        .moderate {
+            color: orange;
+            font-weight: bold;
+        }
+
+        .clear {
+            color: green;
+            font-weight: bold;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: navy;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: navy;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer img {
+            width: 250px;
+            max-width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header>
+    <h1>City Traffic Information Service</h1>
+    <p>Travel Safely and Save Time</p>
+</header>
+
+<!-- NAVIGATION MENU -->
+
+<nav>
+    <a href="#traffic">Traffic Updates</a>
+    <a href="#roads">Road Updates</a>
+    <a href="#rules">Traffic Rules</a>
+    <a href="#routes">Route Information</a>
+</nav>
+
+<!-- CURRENT TRAFFIC CONDITIONS -->
+
+<section id="traffic">
+    <h2>Current Traffic Conditions</h2>
+
+    <img class="picture"
+    src="https://www.azooptics.com/Article.aspx?ArticleID=2028"
+    alt="Traffic Signal and Road">
+
+    <p>
+        Traffic is heavy near the main bus stand
+        and moderate in the city centre.
+        Please follow traffic signals and use
+        alternate routes when necessary.
+    </p>
+
+    <p class="heavy">🔴 Heavy Traffic</p>
+    <p class="moderate">🟠 Moderate Traffic</p>
+    <p class="clear">🟢 Clear Road</p>
+
+    <p>
+        Note: These are sample traffic conditions,
+        not live traffic information.
+    </p>
+</section>
+
+<!-- ROAD TRAFFIC TABLE -->
+
+<section id="roads">
+    <h2>Road Traffic Updates</h2>
+    <table>
+        <tr>
+            <th>Road Name</th>
+            <th>Traffic Condition</th>
+            <th>Alternate Route</th>
+        </tr>
+
+        <tr>
+            <td>Main Road</td>
+            <td class="heavy">Heavy</td>
+            <td>Market Road</td>
+        </tr>
+
+        <tr>
+            <td>College Road</td>
+            <td class="moderate">Moderate</td>
+            <td>Lake View Road</td>
+        </tr>
+
+        <tr>
+            <td>Park Street</td>
+            <td class="clear">Clear</td>
+            <td>Direct Route</td>
+        </tr>
+    </table>
+</section>
+
+<!-- TRAFFIC RULES -->
+
+<section id="rules">
+    <h2>Traffic Rules</h2>
+
+    <img class="picture"
+    src="https://www.indiatoday.in/information/story/delhi-traffic-restrictions-january-27-parking-bans-diversions-2858337-2026-01-27"
+    alt="Traffic Rules">
+
+    <ul>
+        <li>Obey traffic signals.</li>
+        <li>Wear a helmet when riding a two-wheeler.</li>
+        <li>Use a seat belt in a car.</li>
+        <li>Follow speed limits.</li>
+        <li>Do not use a mobile phone while driving.</li>
+    </ul>
+
+    <a class="button"
+       href="https://en.wikipedia.org/wiki/Traffic"
+       target="_blank">
+       Read Traffic Information
+    </a>
+</section>
+
+<!-- ROUTE INFORMATION -->
+
+<section id="routes">
+    <h2>Route Information</h2>
+
+    <img class="picture"
+    src="https://neubuzzz.com/tips-to-customize-google-maps-and-avoid-traffic-challans/"
+    alt="Road Route Map">
+
+    <p>
+        Choose an alternate route to avoid
+        traffic congestion and save time.
+    </p>
+
+    <a class="button"
+       href="https://www.google.com/maps"
+       target="_blank">
+       Find Routes on Google Maps
+    </a>
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+    <h3>Drive Carefully and Stay Safe!</h3>
+
+    <p>City Traffic Information Service</p>
+</footer>
+
+</body>
+</html>
